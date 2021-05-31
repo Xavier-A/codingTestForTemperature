@@ -22,7 +22,6 @@ public class TemperatureController {
     @Resource
     TemperatureService temperatureService;
 
-
     @GetMapping("/getTemperature")
     public ReturnWeatherInfoData getTemperature(@RequestParam("province")String province,
                                                 @RequestParam("city")String city,
