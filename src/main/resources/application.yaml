@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+
+codeTest:
+  serverUrl: http://www.weather.com.cn
