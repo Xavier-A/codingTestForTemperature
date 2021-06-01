@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-class TemperatureApplicationTests {
+public class TemperatureApplicationTests {
 
 	@Autowired
 	TemperatureService temperatureService;
